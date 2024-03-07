@@ -11,8 +11,13 @@
     "json": "json-server --watch db.json --port 5003"
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.25.0",
+    "@tanstack/react-query-devtools": "^5.25.0",
+    "axios": "^1.6.7",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "uuid": "^9.0.1",
+    "uuid4": "^2.0.3"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
